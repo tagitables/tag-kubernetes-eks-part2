@@ -1,0 +1,21 @@
+# Kubernetes credentials
+.kube/
+kubeconfig
+kubeconfig.*
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*secret*.yaml
+
+# Terraform local state
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Editor and OS files
+.vscode/
+.DS_Store
+
